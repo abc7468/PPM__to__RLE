@@ -17,8 +17,8 @@ int main() {
 	vector<int> test;
 	PPMImage* ppm = new PPMImage;
 	Zip* zip = new Zip;
-	zip->ReadPPM("C:/Users/admin/source/repos/input3.ppm", "C:/Users/admin/source/repos/result3.bin", ppm);
+	//zip->ReadPPM("C:/Users/admin/Desktop/github/PPM_to_RLE/input4.ppm", "C:/Users/admin/Desktop/github/PPM_to_RLE/result4.bin", ppm);
 
-	//zip->MakePPM("C:/Users/admin/source/repos/result4.bin", "C:/Users/admin/source/repos/unzip4.ppm",ppm, zip->Modu);
+	zip->MakePPM("C:/Users/admin/Desktop/github/PPM_to_RLE/result1.bin", "C:/Users/admin/Desktop/github/PPM_to_RLE/unzip1.ppm",ppm, zip->Modu);
 
 }
